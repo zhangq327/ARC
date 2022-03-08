@@ -1,16 +1,7 @@
 # ARC
 
 This repo includes the code for the ICLR 2022 paper [Chaos is a Ladder: A New Understanding of Contrastive Learning.](https://openreview.net/pdf?id=ECvgmYVyeUz)
-```
-@inproceedings{
-wang2022chaos,
-title={Chaos is a Ladder: A New Understanding of Contrastive Learning},
-author={Yifei Wang and Qi Zhang and Yisen Wang and Jiansheng Yang and Zhouchen Lin},
-booktitle={International Conference on Learning Representations},
-year={2022},
-url={https://openreview.net/forum?id=ECvgmYVyeUz}
-}
-```
+
 ## Dependency
 
 The environment of our codes can be found in ``requirement.txt``.
@@ -33,7 +24,19 @@ We observe the relation between ARC and downstream performnace of SimCLR with Ra
 
 ![image](https://user-images.githubusercontent.com/81618067/156936579-a2f2ae6e-0cea-4da5-9444-8e6ba6a5a64e.png)
 
+## Citing this work
 
+If you find our code useful, please cite
+```
+@inproceedings{
+wang2022chaos,
+title={Chaos is a Ladder: A New Understanding of Contrastive Learning},
+author={Yifei Wang and Qi Zhang and Yisen Wang and Jiansheng Yang and Zhouchen Lin},
+booktitle={International Conference on Learning Representations},
+year={2022},
+url={https://openreview.net/forum?id=ECvgmYVyeUz}
+}
+```
 
 ## Acknowledgement
 
