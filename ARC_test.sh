@@ -1,0 +1,16 @@
+python evaluate_ARC.py \
+--ckpt logs/exman-train.py/runs/000016/checkpoint-390.pth.tar \
+--ckpt2 ../simclr_var/logs/exman-train.py/runs/000405/checkpoint-67200.pth.tar \
+--arch resnet18 \
+--aug true \
+--batch_size 256 \
+--color_dist_s 0.5 \
+--data cifar \
+--multiplier 6 \
+--name 'ACR_calculate' \
+--problem sim-clr \
+--scale_lower 0.08 \
+--seed -1 \
+--workers 16 \
+--views 6 \
+--gpu 1
