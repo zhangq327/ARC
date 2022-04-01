@@ -15,7 +15,7 @@ def feature_store(train_loader, device, model):
 #views means the number of augmented views of the same raw samples, 
 def ACR_calculate(total_features, views, batch_size, device):
     pos=0
-    iters = len(total_features) // （batch_size*views)
+    iters = len(total_features) // (batch_size*views)
     for j in range(iters):
         init_index = j * batch_size * views
         f1 = total_features[init_index: init_index + batch_size]
