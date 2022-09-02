@@ -24,6 +24,10 @@ We observe the relation between ARC and downstream performnace of SimCLR with Ra
 
 ![image](https://user-images.githubusercontent.com/81618067/156936579-a2f2ae6e-0cea-4da5-9444-8e6ba6a5a64e.png)
 
+## Synthetic results
+
+The code of synthetic datasets can be found in 'synthetic_data.ipynb'.
+
 ## Citing this work
 
 If you find our code useful, please cite
