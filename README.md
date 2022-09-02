@@ -26,7 +26,7 @@ We observe the relation between ARC and downstream performnace of SimCLR with Ra
 
 ## Synthetic results
 
-The code of the synthetic dataset can be found in ''synthetic_data.ipynb''.
+The code of the synthetic dataset can be found in ``synthetic_data.ipynb``.
 
 ## Citing this work
 
